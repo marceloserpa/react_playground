@@ -1,0 +1,7 @@
+.Card {
+    text-align: center;
+    border: 1px solid #000;
+    width: 250px;
+    flex-basis:  | auto; /* default auto */
+}
+
