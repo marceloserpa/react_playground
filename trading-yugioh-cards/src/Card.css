@@ -1,7 +1,20 @@
 .Card {
     text-align: center;
     border: 1px solid #000;
-    width: 250px;
-    flex-basis:  | auto; /* default auto */
+
+    height: 500px;
+    flex-basis: 20%;
+    -ms-flex: auto;
+    width: 180px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
+.Card h3 {
+    font-size: 16px;
+}
+
+.Card .price {
+    font-size: 16px;
+}

@@ -37,10 +37,17 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
 
 /* cardlist */
 
 .container {
   display: flex;
-  column-gap: 20px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
