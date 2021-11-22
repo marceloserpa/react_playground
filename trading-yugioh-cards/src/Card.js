@@ -2,11 +2,11 @@ import './Card.css';
 
 function Card(props) {
   return (
-    <div className="Card">
-        <h3 class="display-5">{props.info.name}</h3>
-        <img src={props.info.picture} />
+    <div className="Card col-xs-12 col-sm-6 col-md4 col-lg-3">
+        <h3 className="display-5">{props.info.name}</h3>
+        <img src={props.info.picture} className="card-picture" />
         <p className="price">price: R$ {props.info.price}</p>
-        <button class="btn btn-primary">Buy #ID {props.info.id}</button>
+        <button className="btn btn-primary">Buy #ID {props.info.id}</button>
     </div>
   );
 }

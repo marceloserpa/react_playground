@@ -1,21 +1,28 @@
 .Card {
     text-align: center;
     border: 1px solid #000;
-
-    height: 500px;
-    flex-basis: 20%;
-    -ms-flex: auto;
-    width: 180px;
-    position: relative;
+    width: 220px;
     padding: 10px;
-    box-sizing: border-box;
 }
+
+.Card:hover {
+    background-color: yellow;
+  }
 
 .Card h3 {
     font-size: 16px;
     height: 30px;
 }
 
+.Card .card-picture {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .Card .price {
     font-size: 16px;
+}
+
+.Card .btn {
+    margin-bottom: 10px;
 }
