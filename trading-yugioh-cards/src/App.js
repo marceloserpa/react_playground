@@ -1,6 +1,8 @@
 import './App.css';
 import './Card.js';
+import './NavBar.js'
 import Card from './Card.js';
+import NavBar from './NavBar.js';
 
 function App() {
 
@@ -21,7 +23,9 @@ function App() {
   
   return (
     <div className="App">
-
+      <header className="App-header">
+        <NavBar />
+      </header>
       <body>
         {renderCardList(cards)}
       </body>
@@ -46,7 +50,5 @@ function renderCardList(cards){
   );
 
 }
-
-
 
 export default App;
